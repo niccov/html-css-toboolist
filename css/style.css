@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-.container{
-    height: 60px;
+header .container{
+    height: 70px;
     width: 100%;
 }
 
@@ -22,3 +22,44 @@ header .container h1{
     font-family: Arial, Helvetica, sans-serif
 }
 
+section .container2{
+    height: 600px;
+    width: 100%;
+    position: relative;
+    background-color: #F4F4F4;
+}
+
+section .container2 .container-inside{
+    height: 93%;
+    width: 70%;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    background-color: white;
+}
+
+#button1{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    border-radius: 25px;
+    background-color: #1C86EE;
+    color: white;
+    border-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20px;
+    width: 70px;
+}
+
+#button2{
+    position: absolute;
+    top: 10px;
+    left: 95px;
+    border-radius: 25px;
+    border-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    background-color: white;
+    width: 90px;
+    height: 20px;
+}
