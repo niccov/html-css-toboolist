@@ -80,9 +80,10 @@ section .container2 .container3{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.first-ul{
+.list{
     list-style-type: none;
 }
+
 
 .title-item{
     font-size: 20px;
@@ -91,8 +92,53 @@ section .container2 .container3{
 .editorial{
     color: white;
     border-radius: 25px;
-    padding: 5px;
+    padding: 3px;
     background-color: #1C86EE;
     font-size: 14px;
-    
 }
+
+.list-one{
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+.Q1-goals{
+    color: white;
+    border-radius: 25px;
+    padding: 3px;
+    background-color: purple;
+    font-size: 14px;
+}
+
+.recruiting{
+    color: white;
+    border-radius: 25px;
+    padding: 3px;
+    background-color: green;
+    font-size: 14px;
+}
+
+.mobile{
+    color: white;
+    border-radius: 25px;
+    padding: 3px;
+    background-color: orange;
+    font-size: 14px;
+}
+
+.website{
+    color: white;
+    border-radius: 25px;
+    padding: 3px;
+    background-color: rgb(148, 28, 84);
+    font-size: 14px;
+}
+
+.sales{
+    color: white;
+    border-radius: 25px;
+    padding: 3px;
+    background-color: #00ff2a;
+    font-size: 14px;
+}
+
